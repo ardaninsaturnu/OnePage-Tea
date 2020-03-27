@@ -1,0 +1,219 @@
+html {
+    font-size: 15px;
+    
+}
+
+
+html,body {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+
+/*-------------header-start-point--------------*/
+
+header {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: black;
+    
+
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 2px solid salmon;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 2rem 1rem;
+    display: block;
+    color: azure;
+    font-size: 1.5rem;
+
+}
+nav ul li {
+
+}
+                   /*----logo-place-----*/
+.logo img {
+    padding-left: 0.75rem;
+    margin: 0 auto;
+    
+}
+                  /*-h1 background place-*/
+.slider {
+    /*-------------------for flex--------------------*/
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+    /*-------------------for size--------------------*/
+    width: 80%;
+    height:auto;
+    min-height: 700px;
+    /*------------------for-image-----------------------------*/
+    background-image: url("../images/img-mission-background.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.slider .onthewrite {
+    
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+.onthewrite h1 {
+    color: aliceblue;
+    font-size: 40px;
+    margin: 1rem auto;
+}
+
+.onthewrite h1 p {
+    font-size: 25px;
+    
+}
+
+/*-------------------------header biiter abiler -------------*/
+
+main {
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    
+}
+
+.image-grid{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    min-height: 125px;
+    justify-content:center;
+    
+    flex-wrap: wrap;
+    color: aliceblue;
+    padding:3rem 0;
+}
+.titles {
+    margin: 3rem auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.images {
+    margin: 1rem 1rem;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.images img {
+    
+    display: block;
+    margin: 0 2rem;
+}
+
+
+/*------------------------main end------------------*/
+
+section {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.location {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/img-locations-background.jpg");
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding-top: 2rem;
+    color: aliceblue;
+    font-weight: 800;
+    justify-content: space-around;
+}
+
+.box {
+     
+    width: 250px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem 1rem;
+    line-height: 2rem;
+
+}
+.location .titl  {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*-------------------------section-end----------------*/
+
+footer {
+    width:100%;
+    background-color: black;
+
+}
+
+.adress {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.term {
+    margin-top: 4rem;
+    margin-left: 20px;
+    color: aliceblue;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.term a {
+    text-decoration: none;
+    color:red;
+}
+
+
+
+
+
+
+
+
